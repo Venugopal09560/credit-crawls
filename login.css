@@ -1,0 +1,57 @@
+.google-icon{
+    width: 19px;
+    margin-right: 5px;
+    margin-right: 40px;
+    margin-left: 60px;
+}
+.buttonghost{
+    
+    border-radius: 2px;
+    background: rgb(218, 191, 195);
+    line-height: 0px;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(235, 192, 224);
+}
+.input{
+    width: 40vh;
+    height: 4vh;
+    background-color: rgb(218, 191, 195);
+    color: rgb(144, 127, 127);
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+.login{
+    background-color: rgb(122, 122, 202);
+    text-align: center;
+    color: white;
+    border: none;
+    width: 38vh;
+    height: 4vh;
+    border-radius: 5px;
+    margin-top: 3vh;
+
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+.flex-page{
+    display: flex;
+    flex-direction: row;
+    margin:2%;
+}
+.image{
+    height: 200px;
+    width: 200px;
+}
+

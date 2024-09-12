@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="colour">
+    <section id="top">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid flex-column p-0">
+            <div class="d-flex w-100 justify-content-between top-navbar">
+                <div class="d-flex align-items-center">
+                    
+                </div>
+                <div class="image">
+                    <img src="img/cc.png" alt="">
+                </div>
+                <ul class="navbar-nav" id="flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="career.html">Careers</a>
+                    </li>
+                    <li class="nav-item" class="contact">
+                        <a class="nav-link" href="#"><img src="img/contact.jpeg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar d-flex w-100 justify-content-end">
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="close-icon">&times;</span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="financialToolsDropdown" role="button" data-toggle="dropdown">
+                                Financial Tools
+                            </a>
+                            <div class="dropdown-menu" >
+                                <a class="dropdown-item" href="#">EMI Calculator</a>
+                                <a class="dropdown-item" href="#">Balanace Transfer Calculator</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lending.html">lending Partnership</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <div class="container content">
+        <div class="container-img">
+            <img src="img/home.png" alt="">
+        </div>
+        <div class="container-text">
+            <h2>What We Do!</h2>
+            <p>"Credit Crawls is fin teach company has forged strategic partn variety of 
+                private banks and NBFCs, enhancing our loan offering customers. With this 
+                collaboration, customers now have a pleti options at there fingertips. Each 
+                partner institution maintains it eligibility criteria, empowering customers
+                to select the loan opt best with there individual needs and qualifications.
+                This diversi ensures that customers can make informed decisions and sec financing
+                that suits them best."</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="quick-response-card">
+            <div>
+                <h3>Get Quick Response</h3>
+                <p>Ping us on WhatsApp</p>
+            </div>
+            <button class="quick-response-button"  onclick="redirectToWhatsApp()">
+                <i class="fab fa-whatsapp"></i>
+                <p>WhatsApp Now</p>
+            </button>
+        </div>
+    </div>
+   
+    <div class="container3">
+        <div class="text3">
+            <h3>About Us</h3>
+            <p>
+                <h4 class="head">Welcome to Credit Crawls</h4>
+                At Credit Crawls, we specialize in providing seamless financial solutions tailored to your needs. 
+                As a premier Direct Selling Agent (DSA) company in India, we bridge the gap between you and the 
+                financial institutions, ensuring hassle-free access to loans and other financial products.
+            </p>
+            <p>
+                At Credit Crawls, our mission is simple - to empower individuals and businesses by simplifying the
+                 borrowing process. We strive to make obtaining financial assistance a smooth and transparent experience 
+                 for our clients, while also ensuring they receive the best possible terms and rates.
+            </p>
+        </div>
+        <div class="img2">
+            <img src="img/img4.png" alt="">
+        </div>
+    </div>
+    <div class="know-more">
+            <a href="about.html">Know more</a>
+    </div>
+    <div class="services-background" id="services">
+        <table>
+            <tr>
+                <th class="services-heading" colspan="3"><h2>Services</h2></th>
+            </tr>
+            <tr>
+                <td><button class="service-buttons"> <a href="">Personal Loan</a></button></td>
+                <td><button class="service-buttons"> <a href="">Business Loan</a></button></td>
+                <td><button class="service-buttons"> <a href="">Home Loan</a></button></td>
+            </tr>
+            <tr>
+                <td><button class="service-buttons"><a href="">Property Loan</a></button></td>
+                <td><button class="service-buttons"> <a href="">Vehicle Loan</a></button></td>
+                <td><button class="service-buttons"> <a href="">Housing Loan</a></button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="partnerbar">
+        <p>Partner with Credit Crawls to grow your Business</p>
+        <button class="partnerbutton"><a href="partner.html">PARTNER NOW</a></button>
+    </div>
+    <div class="scroll">
+        <h2 class="brand">Brands Who Trust Us</h2>
+        <marquee behavior="alternate" direction="left" scrollamount="12">
+            <div class="m1">
+                <img src="re/Upwards+-+Logo.png" title="Upwardslogo" alt="" height="80px" width="80px" class="padding"/>
+                <img src="re/Rupicard2.png" title="" alt="" height="80px" width="130px" class="padding"/>
+                <img src="re/NIRA-logo.png" title="" alt="" height="80px" width="100px" class="padding"/>
+                <img src="re/mPokket+-+Logo.png" title="" alt="" height="80px" width="90px" class="padding"/>
+                <img src="re/Moneytap+-+logo.png" title="" alt="" height="80px" width="90px" class="padding"/>
+                <img src="re/IIFL_Finance.jpg" title="" alt="" height="80px" width="190px" class="padding"/>
+                <img src="re/Home+Credit+-+logo.png" title="" alt="" height="80px" width="80px" class="padding"/>
+                <img src="re/Finzy_Logo@3x.png" title="" alt="" height="80px" width="80px" class="padding"/>
+                <img src="re/grocreeFinance.jpg" title="" alt="" height="80px" width="260px" class="padding"/>
+                <img src="re/aditya-birla-capital-logo.png" title="" alt="" height="120px" width="180px" class="padding"/>
+                <img src="re/Stash+Fin+-+logo.jpeg" title="" alt="" height="80px" width="100px" class="padding"/>
+                <img src="re/bhanix.png" title="" alt="" height="80px" width="100px" class="padding"/>
+                <img src="re/landtfslogo.png" title="" alt="" height="80px" width="160px" class="padding"/>
+                <img src="re/Prefr.png" title="" alt="" height="80px" width="80px" class="padding"/>
+                <img src="re/Finnable+-+Logo.png" title="" alt="" height="80px" width="80px" class="padding"/>
+                <img src="re/Moneyview.png" title="" alt="" height="80px" width="80px" class="padding"/>
+                <img src="re/FlexiLoans.png" title="" alt="" height="80px" width="80px" class="padding"/>
+                <img src="re/tatacapital.png" title="" alt="" height="90px" width="100px" class="padding"/>
+                <img src="re/Fibe.png" title="" alt="" height="80px" width="80px" class="padding"/>
+                <img src="re/KreditBee.png" title="" alt="" height="80px" width="80px" class="padding"/>
+                <img src="re/Fullerton.jpeg" title="" alt="" height="80px" width="100px" class="padding"/>
+                <img src="re/Kissht+Logo-01.jpg" title="" alt="" height="80px" width="140px" class="padding"/>
+                <img src="re/Navi+-+Logo.png" title="" alt="" height="80px" width="80px" class="padding"/>
+                <img src="re/RupeeRedee+-+logo.png" title="" alt="" height="80px" width="80px" class="padding"/>
+                <img src="re/Privo.png" title="" alt="" height="80px" width="120px" class="padding"/>
+                <img src="re/LOGOANQ.png" title="" alt="" height="80px" width="100px" class="padding"/>
+            </div>
+        </marquee>
+        <marquee behavior="alternate" direction="right" scrollamount="12">
+            <div class="m2">
+               <img src="re/icici.png" title="" alt="" height="120px" width="200px" class="padding"/>
+               <img src="re/citibank.png" title="" alt="" height="100px" width="200px"  class="padding"/> 
+               <img src="re/axis.png" title="" alt="" height="100px" width="300px" class="padding"/> 
+               <img src="re/yes bank.png" title="" alt="" height="100px" width="300px" class="padding"/> 
+               <img src="re/bandhanbank.png" title="" alt="" height="100px" width="300px" class="padding"/> 
+               <img src="re/kotak.png" title="" alt="" height="100px" width="300px" class="padding"/> 
+               <img src="re/idbi.png" title="" alt="" height="100px" width="300px" class="padding"/> 
+               <img src="re/indusind.png" title="" alt="" height="100px" width="300px" class="padding"/> 
+               <img src="re/rbl.png" title="" alt="" height="100px" width="300px" class="padding"/> 
+               <img src="re/unitedbank.png" title="" alt="" height="150px" width="600px" class="padding"/> 
+               <img src="re/unionbank.png" title="" alt="" height="100px" width="300px" class="padding"/> 
+               <img src="re/allahabad.png" title="" alt="" height="100px" width="300px" class="padding"/> 
+               <img src="re/pnb.png" title="" alt="" height="100px" width="300px" class="padding"/> 
+               <img src="re/indian.png" title="" alt="" height="100px" width="300px" class="padding"/> 
+               <img src="re/syndicate.png" title="" alt="" height="130px" width="350px" class="padding"/> 
+               <img src="re/dbs.png" title="" alt="" height="100px" width="300px" class="padding"/> 
+               <img src="re/canara.png" title="" alt="" height="140px" width="250px" class="padding"/> 
+               <img src="re/idfc.png" title="" alt="" height="120px" width="280px" class="padding"/> 
+               <img src="re/centralbank.png" title="" alt="" height="120px" width="300px" class="padding"/> 
+               <img src="re/uco.png" title="" alt="" height="120px" width="350px" class="padding"/> 
+               <img src="re/bom.png" title="" alt="" height="130px" width="350px" class="padding"/> 
+               <img src="re/andra.png" title="" alt="" height="80px" width="300px" class="padding"/> 
+               <img src="re/bob.png" title="" alt="" height="100px" width="400px" class="padding"/> 
+               <img src="re/corporation.png" title="" alt="" height="110px" width="400px" class="padding"/> 
+               <img src="re/hdfc.png" title="" alt="" height="100px" width="300px" class="padding"/> 
+            </div>
+        </marquee>
+    </div>
+    <div class="view-more">
+        <a href="lending.html">View More</a>
+    </div>
+</section>
+    <footer>
+            <div class="footer-container">
+                <div class="footer-section1 address">
+                    <img src="img/cc.png" alt="Credit Crawls Logo" class="logo">
+                    <p><i class="fas fa-map-marker-alt"></i></p>
+                    <p>4th Floor, Above IndusInd Bank, Beside Sky walk, Opp. Kalamandhir, Marathahalli, Bangalore, Karnataka 560037, IN</p>
+                </div>
+                <div class="footer-section services">
+                    <h5>Services</h5>
+                    <ul>
+                        <li><a href="">Personal Loan</a></li>
+                        <li><a href="">Business Loan</a></li>
+                        <li><a href="">Home Loan</a></li>
+                        <li><a href="">Property Loan</a></li>
+                        <li><a href="">Vehicle Loan</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section company">
+                    <h5>Company</h5>
+                    <ul>
+                        <li><i class="fa fa-home"></i>&nbsp;<a href="index.html">Home</a></li>
+                        <li><i class="fas fa-briefcase">&nbsp;</i><a href="career.html">Careers</a></li>
+                        <li><i class="fas fa-phone"></i>&nbsp;<a href="contact.html">Contact Us</a></li>
+                        <li><i class="fas fa-info-circle">&nbsp;</i><a href="about.html">About Us</a></li>
+                        <li><i class="fas fa-handshake"></i>&nbsp;<a href="lending.html">Lending Partners</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section resources">
+                    <h5>Resources</h5>
+                    <ul>
+                        <li><a href="">Media Coverage</a></li>
+                        <li><a href="">Events</a></li>
+                        <li><a href="">Blogs</a></li>
+                        <li><a href="">Images</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section tools">
+                    <h5>Financial Tools</h5>
+                    <ul>
+                    <li><a href="">EMI Calculator</a></li>
+                    <li><a href="">Balance Transfer Calculator</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="social-media">
+                <a href="#"><img src="img/icons/LinkedIn.png" alt="LinkedIn"></a>
+                <a href="#"><img src="img/icons/Instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="img/icons/Facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="img/icons/Whatsapp.png" alt="WhatsApp"></a>
+                <a href="#"><img src="img/icons/X.png" alt="Twitter"></a>
+                <div class="back-to-top">
+                    <a href="#top"><img src="img/back.png" alt="Back to Top"></a>
+                </div>
+            </div>
+           
+    </footer>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.navbar-toggler').on('click', function () {
+                $('.content').toggleClass('content-shift-down');
+            });
+        });
+        function redirectToWhatsApp() {
+            window.location.href = 'https://wa.me/1234567890';
+        }
+    </script>
+
+</body>
+</html>
